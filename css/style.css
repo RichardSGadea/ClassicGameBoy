@@ -1,0 +1,23 @@
+body{
+    background-image: url(../img/fondoWeb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.consola{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gameBoy{
+    width: 27em;
+    height: 43em;
+    background-color: #d3ccd3;
+    background-image: linear-gradient(transparent 95%, rgba(0,0,0,0.5) 98%,rgba(0,0,0,0.4)99%);
+    border-radius: 0.2em 0.2em 5em 1em;
+    margin: 5em auto;
+    box-shadow: 
+    0 0 0.1em #9997,
+    0 0 0.25em rgba(0,0,0,0.25) inset,
+    -0.02em -0.02em 0.1em rgba(0,0,0,0.6) inset,
+    0 0 0.15em rgba(0,0,0,0.85) inset;
+}

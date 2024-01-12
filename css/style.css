@@ -102,3 +102,56 @@ body{
 .nombreConsola .subIndice{
     font-size: 0.4em;
 }
+
+.flechasBotones{
+    display: flex;
+    align-items: center;
+    margin: 1.5em 1em;
+    justify-content: space-between;
+}
+
+.flechas{
+    width: 7em;
+    height: 7em;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.cajaBotones{
+    width: 8em;
+    height: 3.5em;
+    background-color: red;
+}
+
+.btnYaltavoz{
+    display:flex;
+    justify-content: flex-end;
+    height: 10%;
+}
+
+.selectStart{
+    margin-top: 1em;
+    margin-right: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selectBtn{
+    margin-right: 0.7em;
+    width: 3em;
+    height: 1em;
+    background-color: blue;
+}
+
+.startBtn{
+    width: 3em;
+    height: 1em;
+    background-color: blue;
+}
+
+.altavoz{
+    width: 8em;
+    height: 5em;
+    margin-right: 1em;
+    background-color: yellow;
+}

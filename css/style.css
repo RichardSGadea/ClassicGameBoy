@@ -109,12 +109,86 @@ body{
     margin: 1.5em 1em;
     justify-content: space-between;
 }
-
-.leftPad{
+.arrows{
     width: 7em;
     height: 7em;
-    background-color: black;
+    background-color: #777;
+    background-image: conic-gradient(transparent 0%, #d3ccd3 200%);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftPad{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.topBtn { 
+    grid-area: 1 / 2 / 2 / 3;
+    width: 2em;
+    height: 2em;
+    background: black;
+    position: relative;
+    border-radius: 0.2em 0.2em 0 0;
+}
+.topBtn button{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #514c65;
+    border-radius: 0.2em 0.2em 0 0;
+}
+.leftBtn { 
+    grid-area: 2 / 1 / 3 / 2;
+    width: 2em;
+    height: 2em;
+    background: black;
+    position: relative;
+    border-radius: 0.2em 0 0 0.2em; 
+}
+.leftBtn button{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #514c65;
+    border-radius: 0.2em 0 0 0.2em;
+}
+.midPad { 
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: black;
+}
+.rightBtn{ 
+    grid-area: 2 / 3 / 3 / 4;
+    width: 2em;
+    height: 2em;
+    background: black;
+    position: relative;
+    border-radius: 0em 0.2em 0.2em 0;
+}
+.rightBtn button{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #514c65;
+    border-radius: 0em 0.2em 0.2em 0;
+}
+.bottomBtn{ 
+    grid-area: 3 / 2 / 4 / 3;
+    width: 2em;
+    height: 2em;
+    background: black;
+    position: relative;
+    border-radius: 0em 0em 0.2em 0.2em; 
+}
+.bottomBtn button{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #514c65;
+    border-radius: 0em 0em 0.2em 0.2em; 
 }
 
 .buttonsBoxAB{

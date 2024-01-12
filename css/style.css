@@ -21,3 +21,68 @@ body{
     -0.02em -0.02em 0.1em rgba(0,0,0,0.6) inset,
     0 0 0.15em rgba(0,0,0,0.85) inset;
 }
+.pantalla{
+    margin: 2em 1.5em 0 1.5em;
+    border: 0.1em white solid ;
+    border-radius: 0.8em 0.8em 2.5em 0.8em;
+    display: flex;
+    align-items: center;
+    background-color: #777;
+    width: 90%;
+    height: 45%;
+    box-shadow: 
+    0 0 0.02em #514c65,
+    0 -0.02em 0.01em #514c65;
+}
+.pantallaJuego{
+    width: 100%;
+}
+.lineaTextoTop{
+    width: 100%;
+    height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0.9em;
+    color: white;
+    font-size: 0.6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lineaTextoTop .lineas{
+    margin: 0 0.1em 0 0.1em;
+    width: 24%;
+    height: 2em;
+    background: 
+        linear-gradient(
+        transparent 10px,
+        #7d1a4a 10px 12px,
+        transparent 5px 16px,
+        #35224e 16px 18px,
+        transparent 10px);
+}
+.contenedorPantalla{
+    display: flex;
+}
+.contenedorPantalla .cajaBateria{
+    display: flex;
+    align-items: center;
+}
+.contenedorPantalla .bateria{
+    color: white;
+    font-size: 0.7em;
+    margin-left: 0.5em;
+}
+.contenedorPantalla .bateria .luzBateria{
+    width: 0.8em;
+    height: 0.8em;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 1em;
+}
+.pantallaJuego .juego{
+    width: 16em;
+    height: 14em;
+    background: linear-gradient(160deg, rgb(164, 218, 65), white);
+    border: black 0.3em inset;
+    margin-left: 1em;
+}

@@ -86,3 +86,19 @@ body{
     border: black 0.3em inset;
     margin-left: 1em;
 }
+
+.nombreConsola{
+    margin-left: 1em;
+    color: darkslateblue;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+.nombreConsola p{
+    margin-top: 0.1em;
+}
+.nombreConsola .nombre{
+    font-size: 1.3em;
+}
+.nombreConsola .subIndice{
+    font-size: 0.4em;
+}

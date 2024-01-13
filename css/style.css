@@ -257,15 +257,37 @@ body{
 }
 .selectBtn{
     margin-right: 0.7em;
-    width: 3em;
-    height: 1em;
-    background-color: blue;
+    align-self: flex-start;
+    transform: rotate(-30deg);
+}
+.selectBtn button{
+    width: 3.5em;
+    height: 0.7em;
+    cursor: pointer;
+    background: #514c65;
+    border-radius: 0.2em;
+}
+.selectBtn p{
+    margin: 0 auto;
+    font-size:0.8em ;
+    color: darkslateblue;
 }
 
 .startBtn{
-    width: 3em;
-    height: 1em;
-    background-color: blue;
+    align-self: flex-start;
+    transform: rotate(-30deg);
+}
+.startBtn button{
+    width: 3.5em;
+    height: 0.7em;
+    cursor: pointer;
+    background: #514c65;
+    border-radius: 0.2em;
+}
+.startBtn p{
+    margin: 0 auto;
+    font-size:0.8em ;
+    color: darkslateblue;
 }
 
 .speaker{

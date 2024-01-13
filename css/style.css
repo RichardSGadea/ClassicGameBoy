@@ -294,5 +294,16 @@ body{
     width: 8em;
     height: 5em;
     margin-right: 1em;
-    background-color: yellow;
+    align-self: flex-end;
+    transform: rotate(-20deg);
+    display: flex;
+}
+
+.speaker .outputSound{
+    height: 100%;
+    width: 0.3em;
+    background: linear-gradient(28deg,#EFF2F0,#AE9FA6);
+    margin-right: 0.7em;
+    border-radius: 0.2em;
+    box-shadow: 0.1em 0.11em 0.1em 0.11em #35224e;
 }

@@ -191,10 +191,55 @@ body{
     border-radius: 0em 0em 0.2em 0.2em; 
 }
 
-.buttonsBoxAB{
+.btnAB{
     width: 8em;
     height: 3.5em;
-    background-color: red;
+    background: linear-gradient(28deg,#EFF2F0,#AE9FA6);
+    border-radius: 2.3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: rotate(-20deg);
+}
+.buttonB{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+}
+.buttonB button{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: #71011B;
+    cursor: pointer;
+    box-shadow: 
+    -0.1em 0.2em 0.4em rgba(0,0,0,1),
+    -0.2em 0.3em 0.2em rgba(255, 255, 255, 0.25)inset,
+    -0.1em 0.1em 0.1em #FC8AAC inset ;
+}
+.buttonA{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+}
+.buttonA button{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: #71011B;
+    cursor: pointer;
+    box-shadow: 
+    -0.1em 0.2em 0.4em rgba(0,0,0,1),
+    -0.2em 0.3em 0.2em rgba(255, 255, 255, 0.25)inset,
+    -0.1em 0.1em 0.1em #FC8AAC inset ;
+}
+.btnText{
+    width: 8em;
+    display: flex;
+    justify-content: space-around;
+    transform: rotate(-20deg);
+    margin-left: 1em;
+    color: darkslateblue;
 }
 
 .selectStartSpeakerBox{

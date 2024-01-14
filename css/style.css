@@ -72,17 +72,25 @@ body{
     font-size: 0.7em;
     margin-left: 0.5em;
 }
-.screenContainer .battery .batteryLight{
+.screenContainer .battery .batteryLightOff{
     width: 0.8em;
     height: 0.8em;
     background-color: black;
     border-radius: 50%;
     margin-left: 1em;
 }
+.screenContainer .battery .batteryLightOn{
+    width: 0.8em;
+    height: 0.8em;
+    background-color: #FF0000;
+    box-shadow: 0 0 0.30em 0.25em #FF0000;
+    border-radius: 50%;
+    margin-left: 1em;
+}
 .screenContainer .game{
     width: 16em;
     height: 14em;
-    background: linear-gradient(160deg, rgb(164, 218, 65), white);
+    background: linear-gradient(160deg, rgb(94, 97, 88), white);
     border: black 0.3em inset;
     margin-left: 1em;
 }

@@ -13,8 +13,12 @@ let animation=false;
 // Las tres imagenes que con las flechas izquierda y derecha alternaremos
 let img1= '<img src="./img/inicioMario.png" class="img-fluid h-100"></img>';
 let img2= '<img src="./img/aventuraMario.jpg" class="img-fluid h-100"></img>';
-let img3= '<img src="./img/finMario.jpg" class="img-fluid h-100"></img>';
+let img3= '<img src="./img/finMario.gif" class="img-fluid h-100"></img>';
 let arrayImg = [img1,img2,img3];
+let positionArrayImg = 0;
+
+let rightArrow = document.querySelector("#rightArrow");
+let leftArrow = document.querySelector("#leftArrow");
 
 start.addEventListener("click", () =>{
     /*Si la game boy esta apagada*/ 
@@ -44,4 +48,29 @@ start.addEventListener("click", () =>{
         introAudio.pause();
         introAudio.currentTime = 0;
     }
+});
+
+rightArrow.addEventListener("click", ()=>{
+    if(power && !animation){
+        if(positionArrayImg===2){
+            positionArrayImg=0;
+            screen.innerHTML = arrayImg[positionArrayImg];
+        }else{
+            positionArrayImg++;
+            screen.innerHTML = arrayImg[positionArrayImg];
+        } 
+    }
 })
+
+leftArrow.addEventListener("click", ()=>{
+    if(power && !animation){
+        if(positionArrayImg===0){
+            positionArrayImg=2;
+            screen.innerHTML = arrayImg[positionArrayImg];
+        }else{
+            positionArrayImg--;
+            screen.innerHTML = arrayImg[positionArrayImg];
+        }
+    }
+});
+

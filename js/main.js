@@ -19,6 +19,24 @@ let positionArrayImg = 0;
 
 let rightArrow = document.querySelector("#rightArrow");
 let leftArrow = document.querySelector("#leftArrow");
+let topArrow = document.querySelector("#topArrow");
+let bottomArrow = document.querySelector("#bottomArrow");
+let select = document.querySelector("#select");
+let buttonA = document.querySelector("#btnA");
+let buttonB = document.querySelector("#btnB");
+
+//Sonidos diferentes de mario
+let coin = new Audio();
+coin.src="./sounds/marioCoin.mp3";
+let duct = new Audio();
+duct.src="./sounds/marioTuberia.mp3";
+let gameOver = new Audio();
+gameOver.src="./sounds/marioGameOver.mp3";
+let fireThrow = new Audio();
+fireThrow.src="./sounds/marioThrow.mp3";
+let jump = new Audio();
+jump.src="./sounds/marioJump.mp3";
+
 
 start.addEventListener("click", () =>{
     /*Si la game boy esta apagada*/ 
@@ -71,6 +89,32 @@ leftArrow.addEventListener("click", ()=>{
             positionArrayImg--;
             screen.innerHTML = arrayImg[positionArrayImg];
         }
+    }
+});
+
+topArrow.addEventListener("click",()=>{
+    if(power && !animation){
+        coin.play();
+    }
+});
+bottomArrow.addEventListener("click",()=>{
+    if(power && !animation){
+        duct.play();
+    }
+});
+select.addEventListener("click",()=>{
+    if(power && !animation){
+        gameOver.play();
+    }
+});
+buttonB.addEventListener("click",()=>{
+    if(power && !animation){
+        fireThrow.play();
+    }
+});
+buttonA.addEventListener("click",()=>{
+    if(power && !animation){
+        jump.play();
     }
 });
 

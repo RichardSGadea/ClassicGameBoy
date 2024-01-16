@@ -11,9 +11,9 @@ introAudio.src="./sounds/marioIntro.mp3";
 let animation=false;
 
 // Las tres imagenes que con las flechas izquierda y derecha alternaremos
-let img1= '<img src="./img/inicioMario.png" class="img-fluid h-100"></img>';
-let img2= '<img src="./img/aventuraMario.jpg" class="img-fluid h-100"></img>';
-let img3= '<img src="./img/finMario.gif" class="img-fluid h-100"></img>';
+let img1= '<img src="./img/inicioMario.png" class="img-fluid h-100 w-100"></img>';
+let img2= '<img src="./img/aventuraMario.jpg" class="img-fluid h-100 w-100"></img>';
+let img3= '<img src="./img/finMario.gif" class="img-fluid h-100 w-100"></img>';
 let arrayImg = [img1,img2,img3];
 let positionArrayImg = 0;
 

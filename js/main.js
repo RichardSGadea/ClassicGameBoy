@@ -105,6 +105,8 @@ bottomArrow.addEventListener("click",()=>{
 select.addEventListener("click",()=>{
     if(power && !animation){
         gameOver.play();
+        screen.innerHTML = arrayImg[0];
+        positionArrayImg=0;
     }
 });
 buttonB.addEventListener("click",()=>{

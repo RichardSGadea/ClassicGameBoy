@@ -1,4 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Classic+Game+Boy+📱)](https://git.io/typing-svg)
+<img src="./img/marioLogo.png" alt="Logo SuperMario" with="70em" height="70em"/>
 # Game Boy SuperMario
 Aplicación web que replica la interfaz de la clásica Game Boy con temática de SuperMario.
 ## Proyecto
@@ -60,7 +61,7 @@ Este Proyecto esá centrado en profundizar los conocimientos en HTML5, CSS y int
                     </div>
 
 ## Contribuciones
-Si alguien desea contribuir en el desarrollo de La Pizzetta, puede ponerse en contacto con nosotros en richardsgadea@gmail.com o le invitamos a abrir un [Issue](https://github.com/RichardSGadea/ClassicGameBoy/issues) o enviar una [Pull request](https://github.com/RichardSGadea/ClassicGameBoy/pulls)
+Si alguien desea contribuir en el desarrollo de Classic Game Boy, puede ponerse en contacto con nosotros en richardsgadea@gmail.com o le invitamos a abrir un [Issue](https://github.com/RichardSGadea/ClassicGameBoy/issues) o enviar una [Pull request](https://github.com/RichardSGadea/ClassicGameBoy/pulls)
 
 ## Implementación de este repositorio
 1. Descargaremos Git con la versión que deseemos (https://git-scm.com/)

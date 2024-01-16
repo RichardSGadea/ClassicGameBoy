@@ -1,7 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+
 body{
-    background-image: url(../img/fondoWeb.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../img/ladrilloMario.png);
+    background-repeat: repeat;
+    background-size: contain;
 }
 .console{
     display: flex;
@@ -314,4 +316,25 @@ body{
     margin-right: 0.7em;
     border-radius: 0.2em;
     box-shadow: 0.1em 0.11em 0.1em 0.11em #35224e;
+}
+
+.paper{
+    width: 25em;
+    height: 40em;
+    margin: 6em auto;
+    background: linear-gradient(#fef1c3 98%,#e0b8b8 98%);
+    background-size: 100% 2.5em;
+    font-family: 'Shadows Into Light Two' ;
+    padding: 1em;
+}
+.paper .paperHeader{
+    color: darkred;
+    font-size: 4em;
+}
+.paper .paperMain{
+    margin: 2em 1em
+    
+}
+.paper span{
+    margin: 0.2em;
 }

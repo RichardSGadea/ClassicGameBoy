@@ -56,7 +56,7 @@ start.addEventListener("click", () =>{
         }, 7000);
 
     /*Si la game boy esta encendida*/
-    }else{
+    }else if(power && !animation){
         /*Apagamos game boy*/
         power = false;
         light.classList.toggle("batteryLightOff");

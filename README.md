@@ -59,3 +59,24 @@ Este Proyecto esá centrado en profundizar los conocimientos en HTML5, CSS y int
                         </div>
                     </div>
 
+## Contribuciones
+Si alguien desea contribuir en el desarrollo de La Pizzetta, puede ponerse en contacto con nosotros en richardsgadea@gmail.com o le invitamos a abrir un [Issue](https://github.com/RichardSGadea/ClassicGameBoy/issues) o enviar una [Pull request](https://github.com/RichardSGadea/ClassicGameBoy/pulls)
+
+## Implementación de este repositorio
+1. Descargaremos Git con la versión que deseemos (https://git-scm.com/)
+2. Nos crearemos desde la consola un directorio en el que alojaremos el clone de este repositorio, luego entraremos dentro del repositorio creado
+   ```
+   mkdir directorioNuevo
+   ```
+   ```
+   cd directorioNuevo
+   ```
+3. Y dentro de esta carpeta en consola pondríamos el siguiente comando
+   ```
+   git clone https://github.com/RichardSGadea/ClassicGameBoy.git
+   ```
+
+---
+¡Explora la réplica de la GAME BOY con este clásico juego de SUPER MARIO!
+![capture](./img/Screenshots/GeneralCapture.jpg)
+

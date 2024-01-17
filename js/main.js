@@ -7,7 +7,7 @@ let screen = document.querySelector("#screenGame");
 let imageIntro = '<img src="./img/Inicio.gif" class="img-fluid h-100"></img>';
 let introAudio = new Audio();
 introAudio.src="./sounds/marioIntro.mp3";
-//Para comprobar el estado de la animación(gif)
+//Para comprobar el estado de la animación(audio)
 let animation=false;
 
 // Las tres imagenes que con las flechas izquierda y derecha alternaremos

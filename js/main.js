@@ -65,6 +65,8 @@ start.addEventListener("click", () =>{
         screen.innerHTML="";
         introAudio.pause();
         introAudio.currentTime = 0;
+        gameOver.pause();
+        gameOver.currentTime = 0;
     }
 });
 
